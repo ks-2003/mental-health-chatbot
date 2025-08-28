@@ -1,0 +1,75 @@
+/* style.css */
+
+/* Set general background and font */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f3f6fb;
+  margin: 0;
+  padding: 10px;
+}
+
+/* Streamlit main container */
+.css-1d391kg {
+  max-width: 720px !important;
+  margin: auto;
+  padding: 20px !important;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 6px 12px rgb(0 0 0 / 0.1);
+}
+
+/* Title styling */
+h1 {
+  text-align: center;
+  color: #1f2937;
+  margin-bottom: 20px;
+}
+
+/* User message */
+.user-message {
+  background-color: #d1e7dd;
+  border-radius: 12px;
+  padding: 10px 15px;
+  max-width: 70%;
+  margin: 8px 0 8px auto;
+  font-size: 1rem;
+  color: #0f5132;
+}
+
+/* AI message */
+.ai-message {
+  background-color: #e2e3e5;
+  border-radius: 12px;
+  padding: 10px 15px;
+  max-width: 70%;
+  margin: 8px auto 8px 0;
+  font-size: 1rem;
+  color: #41464b;
+}
+
+/* Input box */
+.stTextInput>div>div>input {
+  border-radius: 12px;
+  padding: 10px 15px;
+  font-size: 1rem;
+  border: 1px solid #cbd5e1;
+}
+
+/* Buttons */
+.stButton>button {
+  background-color: #3b82f6;
+  color: white;
+  border-radius: 8px;
+  padding: 8px 20px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.stButton>button:hover {
+  background-color: #2563eb;
+}
+
+/* Spinner */
+.stSpinner>div {
+  color: #2563eb;
+}
